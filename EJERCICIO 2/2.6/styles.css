@@ -1,0 +1,87 @@
+/* Container*/
+
+.container {
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    
+}
+
+div {
+    justify-content: center;
+    align-items: center;
+}
+
+/* Clases span que son los circulos con los numero*/
+
+.el {
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 50%;
+    display: block;
+    font-size: 1.5em;
+    line-height: 3em;
+    text-align: center;
+    width: 3em;
+}
+
+/* El fondo de todo */
+
+.verde-limon {
+    background-color: rgb(205, 220, 57);
+    width: calc(25% - 5px);
+    height: 150px;
+    display: flex;
+}
+
+.verde-limon:nth-child(6) {
+    background-color: rgb(205, 220, 57);
+    width: calc(25% - 5px);
+    height: 200px;
+    display: flex;
+}
+
+.verde-oscuroimg:nth-child(7) {
+    background-image: url(img/descarga.jpg);
+    background-size: cover;
+    background-position: center;
+    width: calc(25% - 5px);
+    height: 200px;
+    display: flex;
+}
+
+.verde-oscuro {
+    background-color: rgb(56, 142, 60);
+    width: calc(25% - 5px);
+    height: 150px;
+    display: flex;
+}
+
+.verde-azul:nth-child(8) {
+    background-color: rgb(200, 230, 201);
+    width: calc(50% - 5px);
+    height: 200px;
+    display: flex;
+}
+
+.verde-azul {
+    background-color: rgb(200, 230, 201);
+    width: calc(25% - 5px);
+    height: 150px;
+    display: flex;
+}
+
+.verde {
+    background-color: rgb(76, 175, 80);
+    width: calc(25% - 5px);
+    height: 150px;
+    display: flex;
+}
+
+.negro:nth-child(5) {
+    background-color: rgb(33, 33, 33);
+    width: 100%;
+    height: 150px;
+    margin: 10px 0px 10px 0px;
+    display: flex;
+}

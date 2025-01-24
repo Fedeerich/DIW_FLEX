@@ -1,0 +1,49 @@
+/* Container */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+/* Clases span que son los circulos con los numero*/
+
+.el {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-size: 1.5em;
+    line-height: normal; 
+    width: 303.7px; 
+    height: 3em;    
+    border-radius: 5px; 
+}
+
+.el a{
+    color: white;
+    text-decoration: none;
+}
+
+/* El fondo de todo */
+
+.uno {
+    background-color: rgb(147, 168, 3);
+}
+
+.dos {
+    background-color: rgb(10, 137, 166);
+}
+
+.tres {
+    background-color: rgb(200, 230, 201);
+}
+
+.cuatro {
+    background-color: rgb(39, 140, 122);
+}
+
+.cinco {
+    background-color: rgb(33, 33, 33);
+}
